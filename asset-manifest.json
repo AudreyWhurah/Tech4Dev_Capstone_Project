@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tech4Dev_Capstone_Project/static/css/main.68961b44.css",
+    "main.js": "/Tech4Dev_Capstone_Project/static/js/main.54313582.js",
+    "static/media/hero_bg.png": "/Tech4Dev_Capstone_Project/static/media/hero_bg.ce32569f9e86cdfa6557.png",
+    "static/media/bg_hero_2.png": "/Tech4Dev_Capstone_Project/static/media/bg_hero_2.7c9128d8174456cb7c57.png",
+    "index.html": "/Tech4Dev_Capstone_Project/index.html",
+    "main.68961b44.css.map": "/Tech4Dev_Capstone_Project/static/css/main.68961b44.css.map",
+    "main.54313582.js.map": "/Tech4Dev_Capstone_Project/static/js/main.54313582.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68961b44.css",
+    "static/js/main.54313582.js"
+  ]
+}
