@@ -1,9 +1,9 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const navItems = [
   {
     name: "Home",
-    path: "/#home",
+    path: "/",
   },
   {
     name: "About us",
@@ -21,7 +21,7 @@ const navItems = [
 const Nav = ({ isHome }) => {
   return (
     <>
-      <header className="w-full flex justify-between items-center pt-6">
+      <header className="w-full flex justify-between items-center pt-6 z-40">
         <div className="flex items-center  w-2/6">
           <img
             src="/images/logo.png"
@@ -39,12 +39,12 @@ const Nav = ({ isHome }) => {
             {navItems.map((item, index) => {
               return (
                 <li key={index}>
-                  <a
+                  <Link
                     className=" hover:border-main_text_3 hover:border-b-2 cursor-pointer transition-all font-josefin_sans text-2xl text-main_dark font-medium "
-                    href={item.path}
+                    to={item.path}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
@@ -53,9 +53,12 @@ const Nav = ({ isHome }) => {
         <div className="w-2/6 ">
           {isHome ? (
             <div className="flex justify-end bg- ">
-              <button className="bg-main_dark text-main_text rounded-md w-[216px] h-[65px] p-1 font-josefin_sans font-medium text-xl">
+              <Link
+                to="community"
+                className="bg-main_dark text-main_text rounded-md w-[216px] h-[65px] p-1 font-josefin_sans font-medium text-xl justify-center items-center flex"
+              >
                 Join our community
-              </button>
+              </Link>
             </div>
           ) : (
             <div className="flex justify-between pl-10">

@@ -3,10 +3,10 @@ import React from "react";
 const CommunityHero = () => {
   return (
     <section className="bg-hero_bg_2 bg-cover bg-no-repeat h-[556px] relative mt-5">
-      <div className="bg-main_hero absolute top-0 w-full opacity-30 h-full"></div>
+      <div className="bg-main_hero absolute top-0 w-full opacity-30 h-full "></div>
       <div className="flex flex-col w-2/3 h-1/2 m-auto  justify-center items-center z-10 ">
         <div className=" font-cardo text-main_text_4 flex flex-col justify-center items-center opacity-100 z-50 ">
-          <h2 className="font-bold text-5xl leading-[57.6px] mt-[200px] ">
+          <h2 className="font-bold text-5xl leading-[57.6px] ">
             EmpowerCare Community
           </h2>
           <h5 className="font-normal text-3xl mt-5">
