@@ -2,21 +2,19 @@ import React from "react";
 
 const CommunityHero = () => {
   return (
-    <section className="bg-hero_bg_2 bg-cover bg-no-repeat h-[556px] relative mt-5">
-      <div className="bg-main_hero absolute top-0 w-full opacity-30 h-full "></div>
-      <div className="flex flex-col w-2/3 h-1/2 m-auto  justify-center items-center z-10 ">
-        <div className=" font-cardo text-main_text_4 flex flex-col justify-center items-center opacity-100 z-50 ">
-          <h2 className="font-bold text-5xl leading-[57.6px] ">
+    <section className="bg-hero_bg_2 bg-cover bg-no-repeat h-[556px] md:h-[556px] relative mt-5">
+      <div className="bg-main_hero absolute top-0 w-full opacity-30 h-full"></div>
+      <div className="flex flex-col w-full md:w-2/3 h-full justify-center items-center m-auto text-center px-4">
+        <div className="font-cardo text-main_text_4">
+          <h2 className="font-bold text-3xl md:text-5xl leading-snug md:leading-[57.6px]">
             EmpowerCare Community
           </h2>
-          <h5 className="font-normal text-3xl mt-5">
+          <h5 className="font-normal text-xl md:text-3xl mt-5">
             Share, learn, and care with the EmpowerCare community
           </h5>
-          <div className=" border-2 border-main_text_4 flex flex-row rounded-full justify-between w-full items-center mt-20">
+          <div className="border-2 border-main_text_4 flex flex-row rounded-full justify-between items-center mt-10 md:mt-20 px-4">
             <svg
-              className="text-main_text_4 w-5 h-5 m-2"
-              width="15"
-              height="15"
+              className="text-main_text_4 w-5 h-5"
               viewBox="0 0 15 15"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -26,11 +24,10 @@ const CommunityHero = () => {
                 fill="#FBF2FF"
               />
             </svg>
-
             <input
               type="text"
               placeholder="search"
-              className=" w-full p-2 placeholder:text-main_dark placeholder:font-normal placeholder:text-xl bg-main_hero opacity-10 "
+              className="w-full p-2 placeholder:text-main_dark placeholder:font-normal placeholder:text-lg bg-transparent focus:outline-none bg-main_light opacity-5"
             />
           </div>
         </div>

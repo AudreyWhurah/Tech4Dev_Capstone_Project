@@ -8,11 +8,11 @@ import CommunityServices from "./CommunityServices";
 const Community = () => {
   return (
     <div>
-      <div className="max-w-[1278px] mx-auto">
+      <div className="container mx-auto w-full px-4 sm:px-6 lg:px-8">
         <Nav isHome={false} />
       </div>
       <CommunityHero />
-      <div className="max-w-[1278px] mx-auto">
+      <div className="container mx-auto w-full px-4 sm:px-6 lg:px-8">
         <CommunityServices />
         <CommunityPost />
       </div>
