@@ -26,8 +26,8 @@ const JoinCommunity = () => {
   return (
     <section className="mt-10">
       <div>
-        <div className="w-1/2 mb-12">
-          <h2 className="font-bold font-cardo text-6xl leading-[76.8px] text-wrap text-main_dark">
+        <div className="md:w-1/2 w-full mb-12">
+          <h2 className="font-bold font-cardo md:text-6xl text-5xl md:leading-[76.8px] text-wrap text-main_dark">
             Join our Community to share your story
           </h2>
         </div>
@@ -39,7 +39,7 @@ const JoinCommunity = () => {
           </div>
         </div>
         <div className="flex w-full  justify-center items-center mt-10">
-          <button className="w-[320px] h-[76px] p-3 rounded-lg text-main_text_4 bg-main_dark font-josefin_sans font-normal text-xl ">
+          <button className="md:w-[320px] md:h-[76px] md:p-3 p-4 rounded-2xl md:rounded-lg text-main_text_4 bg-main_dark font-josefin_sans font-normal text-xl ">
             Join now
           </button>
         </div>

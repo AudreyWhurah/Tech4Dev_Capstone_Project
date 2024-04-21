@@ -11,8 +11,8 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div>
-      <div className="max-w-[1278px] mx-auto">
+    <>
+      <div className="container mx-auto w-full px-4 sm:px-6 lg:px-8">
         <Nav isHome={true} />
         <Hero />
         <HeroTwo />
@@ -23,7 +23,7 @@ const Home = () => {
         <Download />
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
