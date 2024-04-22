@@ -17,7 +17,7 @@ const Nav = ({ isHome }) => {
 
   return (
     <>
-      <header className="w-full flex flex-col md:flex-row justify-between items-center pt-6 px-4 md:px-8 z-40">
+      <header className="w-full flex flex-col md:flex-row justify-between items-center pt-6 px-4 md:px-8 z-[9999999]">
         <div className="flex items-center justify-between w-full md:w-auto">
           <div className="flex items-center">
             <Link to="/">
